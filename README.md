@@ -1,7 +1,5 @@
 ![Logo](/public/team-assets/team.svg)
 
-# Team.
-
 Team is a case study.
 The website showcase what is possible with the team. application and how it can make it easier for you and your team.
 
