@@ -6,6 +6,8 @@ The website showcase what is possible with the team. application and how it can 
 I designed it during a course and chose to build it out with Next.js and Sanity as those are
 something I've been wanting to learn and try out for a while now.
 
+[Live Demo]()
+
 ![Landingpage](/website-ss.png)
 
 ## To do
