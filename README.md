@@ -13,5 +13,6 @@ something I've been wanting to learn and try out for a while now.
 ## To do
 
 - Add comment section on blog posts
-- Contact form on contact page
+- ~~Contact form on contact page~~ ✅
 - Product page
+- Pagination on blog

@@ -89,13 +89,13 @@ body{
   padding-bottom: 0px;
 }
 
-.contact-container{
+.contact-container, .product-container{
   /* height: 50vh; */
   padding-top: 70px;
 }
 
 @media screen and (min-width: 600px){
-  .contact-container{
+  .contact-container, .product-container{
     height: 100vh;
     padding-top: 100px;
   }

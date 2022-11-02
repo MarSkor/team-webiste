@@ -50,7 +50,7 @@ const Navbar = () => {
                     <Link 
                     onClick={() => setOpen(false)} 
                     className={path == "/product" ? "nav-link active" : "nav-link"} 
-                    href="/">
+                    href="/product">
                         Product
                     </Link>
                 </li>
