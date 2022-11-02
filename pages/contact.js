@@ -5,8 +5,8 @@ const contact = () => {
   return (
     <div className='main-wrapper pd-top mt contact-container'>
         <h2>Have any questions?</h2>
-        <h4>fill out the form or contact us directly</h4>
-        <div className="form-wrap">
+        <p>Fill out the form or contact us directly at <a className='link email-link' href="#">info@teamapp.com</a></p>
+        <div className="form-container">
           <Contact/>
         </div>
     </div>

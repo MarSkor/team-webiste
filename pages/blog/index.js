@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { client } from '../../lib/client';
 import { Post } from '../../components';
 
-const index = ({ articles }) => {
-  console.log(articles)
+
+const Blog = ({ articles }) => {
+  // console.log(articles)
+
+  
   return (
     <div className='main-wrapper pd-top'>
       <h1 className='h1-blog'>Blog</h1>
@@ -40,4 +43,4 @@ export const getServerSideProps = async () => {
   }
 }
 
-export default index
+export default Blog

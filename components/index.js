@@ -7,3 +7,5 @@ export { default as Navbar } from "./Navbar";
 export { default as Layout } from "./Layout";
 export { default as Post } from "./Post";
 export { default as Contact } from "./Contact";
+export { default as FloatingLabelInput } from "./FloatingLabelInput";
+export { default as FloatingLabelTextarea } from "./FloatingLabelTextarea";
