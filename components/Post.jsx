@@ -1,9 +1,10 @@
 import React from 'react';
 import { urlFor } from '../lib/client';
 import Link from 'next/link';
+import Image from 'next/image';
 
-const Post = ({article: { name, authorImage, excerpt, mainImage, title, publishedAt, slug }}) => {
-    // console.log(article)
+const Post = ({article: {name, authorImage, excerpt, mainImage, title, publishedAt, slug}}) => {
+   
 
   return (
     <>

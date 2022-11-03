@@ -1,17 +1,45 @@
 export default {
-    name: 'comment', 
-    title: 'Comment',
+    name: 'comment',
     type: 'document',
+    title: 'Comment',
     fields: [
-        {
-            name: 'postedBy',
-            title: 'PostedBy',
-            type: 'string'
-        },
-        {
-            name: 'comment',
-            title: 'Comment',
-            type: 'string',
-        }
-    ]
-}
+      {
+        name: 'name',
+        type: 'string',
+      },
+      {
+        title: 'Approved',
+        name: 'approved',
+        type: 'boolean',
+        description: "Comments won't show on the site without approval"
+      },   
+      {
+        name: 'email',
+        type: 'string',
+      },
+      {
+        name: 'comment',
+        type: 'text',
+      },
+      {
+        name: 'post',
+        type: 'reference',
+        to: [
+          {type: 'post'}
+        ]
+      }
+    ],
+    preview: {
+        select: {
+            name: 'name',
+            comment: 'comment',
+            post: 'post.title'
+          },
+          prepare({name, comment, post}) {
+            return {
+              title: `${name} on ${post}`,
+              subtitle: comment
+            }
+          },
+    }
+  }

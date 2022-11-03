@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { client } from '../../lib/client';
 import { Post } from '../../components';
 
 
-const Blog = ({ articles }) => {
+const Blog = ({ articles  }) => {
   // console.log(articles)
 
   
@@ -34,9 +34,10 @@ export const getServerSideProps = async () => {
     publishedAt
   }`;
 
-
+  
 
   const articles = await client.fetch(query);
+  
   
   return{
     props: { articles }

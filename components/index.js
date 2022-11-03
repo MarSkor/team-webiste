@@ -9,3 +9,4 @@ export { default as Post } from "./Post";
 export { default as Contact } from "./Contact";
 export { default as FloatingLabelInput } from "./FloatingLabelInput";
 export { default as FloatingLabelTextarea } from "./FloatingLabelTextarea";
+export { default as Comments } from "./Comments";
