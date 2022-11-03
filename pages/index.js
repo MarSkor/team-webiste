@@ -3,7 +3,7 @@ import { Hero, FirstSection, SecondSection, Testimonial } from "../components";
 import { client } from "../lib/client";
 
 const Home = ({ testimonialsData }) => {
-  console.log(testimonialsData)
+
   return (
     <>
       <section className="section hero-section">

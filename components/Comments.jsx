@@ -10,7 +10,7 @@ const DisqusComments = (article) => {
     const disqusShortname = process.env.NEXT_PUBLIC_DISQUS_SHORTNAME
 
     const disqusConfig = {
-        url: `https://team-webiste-qihzl617j-marskor.vercel.app//${router.asPath}`,
+        url: `https://team-webiste.vercel.app/${router.asPath}`,
         identifier: article._id,
         title: article.title 
     }
